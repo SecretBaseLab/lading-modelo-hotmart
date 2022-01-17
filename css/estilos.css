@@ -1,0 +1,130 @@
+:root{
+  --header_color: #053D4E;
+  --text_color: white;
+  --call_to_action-btn: #95c93d;
+  --problema_color: #F04E23;
+  --solucion_color: #58C5C7;
+  --sobre_me_color: #FAA634;
+  --beneficios_color: #67488F;
+  --prueba-social: #053D4E;
+  --oferta: white;
+  --inspiracion: #58C5C7;
+  --disclaimer: #053D4E;
+  --footer: #EF4923;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+figure{
+  margin: 0;
+}
+
+.navbar{
+  background-color: var(--header_color);
+  padding: 15px 0;
+}
+nav a{
+  color: var(--text_color);
+}
+
+.hero{
+  background-color: var(--header_color);
+  padding: 20px 0;
+  overflow: hidden;
+}
+.hero h1 b{
+  text-transform: uppercase;
+}
+.call-to-action-btn{
+  background-color: var(--call_to_action-btn);
+  border-radius: 20px;
+  color: var(--text_color);
+  font-weight: 600;
+  box-shadow: 0 5px 2px 0px #95c93daa;
+}
+.hero figure{
+  width: 100%;
+  height: 100%;
+}
+.hero img{
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+
+.problema{
+  background-color: var(--problema_color);
+  padding: 20px 0;
+}
+
+.solucion{
+  background-color: var(--solucion_color);
+  padding: 20px 0;
+}
+.solucion-descripcion-container{
+  justify-content: center;
+}
+.solucion-descripcion{
+  text-align: center;
+  width: 80%;
+}
+
+.sobreMe{
+  background-color: var(--sobre_me_color);
+  padding: 20px 0;
+  overflow: hidden;
+}
+.sobreMe figure{
+  width: 100%;
+  height: 90%;
+}
+.sobreMe figure img{
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+
+.beneficios{
+  background-color: var(--beneficios_color);
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.pruebaSocial{
+  background-color: var(--prueba-social);
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.oferta{
+  background-color: var(--oferta);
+  padding: 20px 0;
+  overflow: hidden;
+}
+.oferta p, .oferta h2{
+  color: black;
+}
+
+.inspiracion{
+  background-color: var(--inspiracion);
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.disclaimer{
+  background-color: var(--disclaimer);
+  text-align: center;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.footer{
+ background-color: var(--footer);
+ text-align: center;
+ padding: 20px 0;
+ overflow: hidden;
+}
